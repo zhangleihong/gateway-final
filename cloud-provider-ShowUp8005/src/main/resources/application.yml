@@ -1,0 +1,50 @@
+server:
+  port: 8005
+
+spring:
+  application:
+    name: cloud-showup-service
+  profiles:
+    active: dev
+    # 数据源
+  redis:
+    host: 127.0.0.1
+    port: 6379
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/gateway?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowMultiQueries=true
+    hikari:
+      maximum-pool-size: 20
+      minimum-idle: 5
+      max-lifetime: 1800000
+      idle-timeout: 30000
+      auto-commit: true
+      pool-name: PbHikariCP
+      connection-test-query: SELECT 1
+      connection-timeout: 30000
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.xzh.cloud.entity  # 实体 别名类所在包名
+
+eureka:
+  client:
+    register-with-eureka: true # 是否注册进eureka
+    fetch-registry: true # 是否抓取注册信息
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka
+  instance:
+    instance-id: showup8005
+    prefer-ip-address: true
+
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+files:
+  upload:
+    path: D:/代码/小白做毕设2022/files/

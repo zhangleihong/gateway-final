@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7ca333cd-993e-4b7b-9c41-0429b78b985e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Vue Single File Component" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="23JXoFrwwgExrGa7qkqPg3jgVVc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-provider-ShowUp8005/src/main/java/com/xzh/cloud" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.59099436" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.xzh.cloud.entity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\研究生项目\主动防御\gateway-final\cloud-provider-ShowUp8005\src\main\java\com\xzh\cloud" />
+      <recent name="C:\Users\xzh\Desktop\cloudtest\gateway-final\cloud-provider-ShowUp8005\src\main\resources" />
+      <recent name="C:\Users\xzh\Desktop\cloudtest\gateway-final\cloud-gateway-gateway9527\src\main\resources" />
+      <recent name="C:\Users\xzh\Desktop\cloudtest\gateway-more\cloud-gateway-gateway9527\src\main\java\com\xzh\cloud\filter" />
+      <recent name="C:\Users\xzh\Desktop\cloudtest\gateway-more\cloud-provider-ShowUp8005\src\main\resources\mapper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xzh.cloud.controller" />
+      <recent name="com.xzh.cloud.service.impl" />
+      <recent name="com.xzh.cloud.service" />
+      <recent name="com.xzh.cloud.mapper" />
+      <recent name="com.xzh.cloud.config" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.mainGo">
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="cloud-provider-ShowUp8005" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="cloud-provider-payment8002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mainGo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xzh.cloud.mainGo" />
+      <module name="cloud-provider-ShowUp8005" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xzh.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/cloud-provider-payment8001" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="ConsumerServiceApplication9700" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="consumer-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zypcy.springcloud.consumerservice.ConsumerServiceApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DynamicRouteApplication9600" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="dynamic-route" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zypcy.springcloud.dynamicroute.DynamicRouteApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaMain7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-eureka-server7001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xzh.cloud.EurekaMain7001" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayDynamicRouteApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gateway-dynamic-route" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zypcy.springcloud.gatewaydynamicroute.GatewayDynamicRouteApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayMain9527" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-gateway-gateway9527" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xzh.cloud.GatewayMain9527" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShowUpMain8005" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-provider-ShowUp8005" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xzh.cloud.ShowUpMain8005" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="payment8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-provider-payment8001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xzh.cloud.PaymentMain8001" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="showup" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/cloud-provider-ShowUp8005/vue/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="serve" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Test (1)" />
+      <item itemvalue="npm.showup" />
+      <item itemvalue="Spring Boot.payment8001" />
+      <item itemvalue="Spring Boot.EurekaMain7001" />
+      <item itemvalue="Spring Boot.ShowUpMain8005" />
+      <item itemvalue="Spring Boot.DynamicRouteApplication9600" />
+      <item itemvalue="Spring Boot.ConsumerServiceApplication9700" />
+      <item itemvalue="Spring Boot.GatewayMain9527" />
+      <item itemvalue="Spring Boot.GatewayDynamicRouteApplication" />
+      <item itemvalue="Application.mainGo" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.mainGo" />
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <option name="contentProportion" value="0.2441289" />
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@9da3c0ab" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@9da3c0ab" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@f8cf34b8" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7ca333cd-993e-4b7b-9c41-0429b78b985e" name="Default Changelist" comment="" />
+      <created>1641453336917</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1641453336917</updated>
+      <workItem from="1641453340338" duration="3014000" />
+      <workItem from="1641520258755" duration="9058000" />
+      <workItem from="1641561076675" duration="2150000" />
+      <workItem from="1641565504350" duration="408000" />
+      <workItem from="1641606601545" duration="2560000" />
+      <workItem from="1645499307960" duration="3208000" />
+      <workItem from="1645513896165" duration="1587000" />
+      <workItem from="1645515788813" duration="3500000" />
+      <workItem from="1645519681081" duration="12206000" />
+      <workItem from="1645585524444" duration="3989000" />
+      <workItem from="1645757583845" duration="1605000" />
+      <workItem from="1645771841366" duration="6187000" />
+      <workItem from="1645859939945" duration="11746000" />
+      <workItem from="1645927832221" duration="10980000" />
+      <workItem from="1646010592414" duration="9136000" />
+      <workItem from="1646048327455" duration="2488000" />
+      <workItem from="1646101199574" duration="3913000" />
+      <workItem from="1646117397607" duration="5914000" />
+      <workItem from="1646183471452" duration="19663000" />
+      <workItem from="1646225258459" duration="796000" />
+      <workItem from="1646226732470" duration="2500000" />
+      <workItem from="1646287883501" duration="5718000" />
+      <workItem from="1646295291970" duration="7245000" />
+      <workItem from="1646358466067" duration="11307000" />
+      <workItem from="1646444042142" duration="13588000" />
+      <workItem from="1646531949327" duration="2056000" />
+      <workItem from="1646534042689" duration="12287000" />
+      <workItem from="1646616938275" duration="4305000" />
+      <workItem from="1646622189039" duration="29000" />
+      <workItem from="1646635491078" duration="62000" />
+      <workItem from="1646741343606" duration="621000" />
+      <workItem from="1646791621587" duration="7305000" />
+      <workItem from="1646876455702" duration="11987000" />
+      <workItem from="1647072798530" duration="5119000" />
+      <workItem from="1647428338329" duration="1334000" />
+      <workItem from="1647585013207" duration="5494000" />
+      <workItem from="1647671365710" duration="6688000" />
+      <workItem from="1647743043627" duration="3578000" />
+      <workItem from="1647825793810" duration="15241000" />
+      <workItem from="1647912081040" duration="9185000" />
+      <workItem from="1647940157905" duration="3811000" />
+      <workItem from="1648019591660" duration="32000" />
+      <workItem from="1648122309543" duration="41000" />
+      <workItem from="1648190168871" duration="250000" />
+      <workItem from="1648190744544" duration="1633000" />
+      <workItem from="1648519192741" duration="853000" />
+      <workItem from="1648520230510" duration="8819000" />
+      <workItem from="1648544320128" duration="710000" />
+      <workItem from="1648547537397" duration="820000" />
+      <workItem from="1648550743972" duration="4859000" />
+      <workItem from="1648559308281" duration="354000" />
+      <workItem from="1648714776536" duration="4787000" />
+      <workItem from="1648776856277" duration="444000" />
+      <workItem from="1650178913167" duration="180000" />
+      <workItem from="1650179390872" duration="15000" />
+      <workItem from="1650181659599" duration="867000" />
+      <workItem from="1650184775556" duration="325000" />
+      <workItem from="1650339761990" duration="9446000" />
+      <workItem from="1650358915752" duration="7776000" />
+      <workItem from="1650373797547" duration="953000" />
+      <workItem from="1650416687097" duration="10548000" />
+      <workItem from="1650435629634" duration="17160000" />
+      <workItem from="1650460237474" duration="1638000" />
+      <workItem from="1650505415028" duration="6394000" />
+      <workItem from="1650524707548" duration="8534000" />
+      <workItem from="1650539614692" duration="4341000" />
+      <workItem from="1650589164423" duration="25881000" />
+      <workItem from="1650631010212" duration="6087000" />
+      <workItem from="1650850493109" duration="965000" />
+      <workItem from="1650851804618" duration="10230000" />
+      <workItem from="1650970256025" duration="628000" />
+      <workItem from="1651029383396" duration="3445000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/xzh/cloud/filter/TestFilter.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/xzh/cloud/filter/TestFilter.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/xzh/cloud/filter/TestFilter.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/xzh/cloud/filter/TestFilter.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/xzh/cloud/filter/TestFilter.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/xzh/cloud/filter/TestFilter.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/xzh/cloud/filter/TestFilter.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/xzh/cloud/filter/TestFilter.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/xzh/cloud/filter/TestFilter.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/xzh/cloud/filter/TestFilter.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/xzh/cloud/filter/TestFilter.java</url>
+          <line>113</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/xzh/cloud/filter/TestFilter.java</url>
+          <line>112</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/xzh/cloud/filter/TestFilter.java</url>
+          <line>114</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/xzh/cloud/filter/TestFilter.java</url>
+          <line>131</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/xzh/cloud/filter/TestFilter.java</url>
+          <line>132</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/xzh/cloud/filter/TestFilter.java</url>
+          <line>150</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/xzh/cloud/filter/TestFilter.java</url>
+          <line>152</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/xzh/cloud/filter/TestFilter.java</url>
+          <line>151</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/xzh/cloud/listener/TestListener.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/xzh/cloud/listener/TestListener.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/xzh/cloud/listener/TestListener.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/xzh/cloud/listener/TestListener.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/xzh/cloud/listener/TestListener.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/xzh/cloud/listener/TestListener.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/xzh/cloud/listener/TestListener.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/xzh/cloud/listener/TestListener.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/xzh/cloud/listener/TestListener.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/xzh/cloud/listener/TestListener.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/xzh/cloud/filter/TestFilter.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/xzh/cloud/filter/TestFilter.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/xzh/cloud/filter/TestFilter.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/xzh/cloud/filter/TestFilter.java</url>
+          <line>108</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/xzh/cloud/filter/TestFilter.java</url>
+          <line>109</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/xzh/cloud/filter/TestFilter.java</url>
+          <line>110</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/xzh/cloud/filter/TestFilter.java</url>
+          <line>111</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/xzh/cloud/filter/TestFilter.java</url>
+          <line>127</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/xzh/cloud/filter/TestFilter.java</url>
+          <line>128</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/xzh/cloud/filter/TestFilter.java</url>
+          <line>130</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/xzh/cloud/filter/TestFilter.java</url>
+          <line>129</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/xzh/cloud/filter/TestFilter.java</url>
+          <line>133</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/xzh/cloud/filter/TestFilter.java</url>
+          <line>134</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/xzh/cloud/filter/TestFilter.java</url>
+          <line>135</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/xzh/cloud/filter/TestFilter.java</url>
+          <line>136</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/xzh/cloud/filter/TestFilter.java</url>
+          <line>137</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-ShowUp8005/src/main/java/com/xzh/cloud/filter/TestFilter.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-ShowUp8005/src/main/java/com/xzh/cloud/filter/TestFilter.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-ShowUp8005/src/main/java/com/xzh/cloud/filter/TestFilter.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-ShowUp8005/src/main/java/com/xzh/cloud/filter/TestFilter.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-ShowUp8005/src/main/java/com/xzh/cloud/filter/TestFilter.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-test-consumer9700/src/main/java/com/zypcy/springcloud/consumerservice/IndexController.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-ShowUp8005/src/main/java/com/xzh/cloud/controller/DynamicVersionController.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-ShowUp8005/src/main/java/com/xzh/cloud/controller/DynamicVersionController.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-ShowUp8005/src/main/java/com/xzh/cloud/controller/DynamicVersionController.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-ShowUp8005/src/main/java/com/xzh/cloud/controller/DynamicVersionController.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-ShowUp8005/src/main/java/com/xzh/cloud/controller/DynamicVersionController.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/xzh/cloud/DynamicRouteService.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/xzh/cloud/DynamicRouteService.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/xzh/cloud/DynamicRouteService.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/xzh/cloud/DynamicRouteService.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/xzh/cloud/DynamicRouteService.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-dynamic-route9600/src/main/java/com/zypcy/springcloud/dynamicroute/controller/GatewayRoutesController.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-dynamic-route9600/src/main/java/com/zypcy/springcloud/dynamicroute/controller/GatewayRoutesController.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-dynamic-route9600/src/main/java/com/zypcy/springcloud/dynamicroute/controller/GatewayRoutesController.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-dynamic-route9600/src/main/java/com/zypcy/springcloud/dynamicroute/controller/GatewayRoutesController.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-dynamic-route9600/src/main/java/com/zypcy/springcloud/dynamicroute/controller/GatewayRoutesController.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-dynamic-route9600/src/main/java/com/zypcy/springcloud/dynamicroute/controller/GatewayRoutesController.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-dynamic-route9600/src/main/java/com/zypcy/springcloud/dynamicroute/controller/GatewayRoutesController.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-dynamic-route9600/src/main/java/com/zypcy/springcloud/dynamicroute/controller/GatewayRoutesController.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-ShowUp8005/src/main/java/com/xzh/cloud/controller/IpWhiteListController.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-ShowUp8005/src/main/java/com/xzh/cloud/service/impl/IpWhiteListServiceImpl.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-ShowUp8005/src/main/java/com/xzh/cloud/service/impl/IpWhiteListServiceImpl.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

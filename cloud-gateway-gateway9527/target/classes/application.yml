@@ -1,0 +1,69 @@
+server:
+  port: 9527
+
+spring:
+  profiles:
+    active: dev
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: org.gjt.mm.mysql.Driver #mysql驱动
+    url: jdbc:mysql://localhost:3306/gateway?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: root
+  redis:
+    port: 6379
+    host: localhost
+#    password: root
+
+  application:
+    name: cloud-gateway
+#  datasource:
+#    type: com.alibaba.druid.pool.DruidDataSource
+#    driver-class-name: org.gjt.mm.mysql.Driver #mysql驱动
+#    url: jdbc:mysql://localhost:3306/db2019?useUnicode=true&characterEncoding=utf-8&useSSL=false
+#    username: root
+#    password: root
+  cloud:
+    gateway:
+      discovery:
+          locator:
+            enabled: true
+      routes:
+#        - id: payment-route
+#          uri: http://localhost:8001
+#          predicates:
+#            - Path=/payment/lb/**
+#
+        - id: gateway-showup
+          uri: http://localhost:8080
+          order: 1
+          predicates:
+            - Path=/**
+#          filters:
+#            - RewritePath=/showup/(?<segment>.*),/$\{segment}
+#            - StripPrefix=1
+
+          filters:
+#            - RewritePath=/ap(?<abc>/?.*), $\{abc}
+            - name: RequestRateLimiter
+              # args是传入给RequestRateLimiter这个过滤器的参数
+              args:
+                # 给定redis中的key, 使用用户的ip作为key
+                keyResolver: '#{@redisKeyResolver}'
+                # 初始化往令牌桶中放的令牌数量  允许用户每秒处理多少个请求
+                redis-rate-limiter.replenishRate: 20
+                # 每秒钟往令牌桶中存放的令牌的数量 令牌桶的容量，允许在一秒钟内完成的最大请求数
+                redis-rate-limiter.burstCapacity: 40
+#
+#            - RedirectTo=302,https://www.baidu.com
+eureka:
+  client:
+    register-with-eureka: true # 是否注册进eureka
+    fetch-registry: true # 是否抓取注册信息
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka
+
+  instance:
+    hostname: cloud-gateway-service
+    instance-id: gateway9527
+    prefer-ip-address: true

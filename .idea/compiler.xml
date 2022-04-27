@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-eureka-server7002" />
+        <module name="cloud-api-commons" />
+        <module name="cloud-eureka-server7001" />
+        <module name="cloud-provider-payment8001" />
+        <module name="cloud-gateway-gateway9527" />
+        <module name="consumer-service" />
+        <module name="cloud-dynamic-gateway9999" />
+        <module name="gateway-dynamic-route" />
+        <module name="cloud-dynamic-route9600" />
+        <module name="dynamic-route" />
+        <module name="cloud-provider-ShowUp8005" />
+        <module name="cloud-test-consumer9700" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cloud-dynamic-gateway9999" options="-parameters" />
+      <module name="cloud-dynamic-route9600" options="-parameters" />
+      <module name="cloud-test-consumer9700" options="-parameters" />
+      <module name="consumer-service" options="-parameters" />
+      <module name="dynamic-route" options="-parameters" />
+      <module name="gateway-dynamic-route" options="-parameters" />
+    </option>
+  </component>
+</project>
